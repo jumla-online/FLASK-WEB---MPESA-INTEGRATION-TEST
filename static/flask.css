@@ -1,0 +1,62 @@
+body {
+  text-align: justify; 
+  font-family: Arial, sans-serif;
+}
+#demo {
+  color: red; 
+
+}
+.container {
+  display: flex; 
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+}
+.column-1 {
+  flex: 70%; 
+  background-color: white;
+  padding: 5%;
+}
+.column-2 {
+  flex: 30%; 
+  background-image: url('pexels-rafael-guajardo-604684.jpg'); 
+  background-size: contain; 
+  background-position: right; 
+  padding: 5%;
+  background-color: #3498db;
+  line-height: 200px;
+  transition: transform 0.3s ease;
+}
+.column-2:hover {
+  transform: scale(1.03);
+}
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+footer {
+  background-color: #007;
+  color: #ffff;
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.c2 {
+  flex: 30%;
+  background-size: contain; 
+  background-position: right; 
+  padding: 5%;
+  background-color: rgb(215, 226, 225);
+  line-height: 100px;
+  transition: transform 0.3s ease;
+}
+.btn2 {
+margin-top: 10%;
+}
